@@ -1,0 +1,13 @@
+body{width: 100%;}
+
+h1{font-size: 4em;}
+
+.container{width:900px;
+		   background-color: gray;}
+ul{list-style: none;}
+li{width:250px;
+   height:250px;
+   border:12px solid black;
+   margin:0px;
+   float:left;
+   background-color: red;}

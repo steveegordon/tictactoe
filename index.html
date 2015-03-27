@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+	<link rel="stylesheet" type="css" href="style.css">
+</head>
+<body ng-app="TTTapp">
+	<h1>Tic Tac Toe</h1>
+	<div ng-controller="TTTcontroller as squares">
+		<div class="container">
+			<ul>
+				<li ng-repeat="square in squares.boxes"></li>
+			</ul>
+
+		</div>
+	</div>
+</body>
+
+<script src="js/angular.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="maincontroller.js"></script>
+</html>
